@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+    <target name="javadoc">
+        <javadoc access="public" author="true" classpath="sqljdbc4.jar;mysql-connector-java-5.1.46.jar;ojdbc6.jar" destdir="doc" doctitle="Login de Usuario" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="bd.daos,bd.core,bd,bd.dbo,Cliente,Servidor,interfaceGrafica" source="1.8" sourcefiles="src/Principal.java" sourcepath="src" splitindex="true" use="true" version="true"/>
+    </target>
+</project>
